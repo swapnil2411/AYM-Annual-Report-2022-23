@@ -1,0 +1,1065 @@
+@media (min-width: 1280px){
+    .content_container{
+        max-width: 75vw;
+        margin: 0 auto;
+    }
+
+    .md_message_area .content_container {
+        max-width: 81vw;
+        margin: 0;
+        margin-left: auto;
+    }
+
+    .progress_bar_area .progress_bar_column{
+        flex: 0 0 16%;
+        max-width: 16%;
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1279px){
+    .content_container{
+        max-width: 70vw;
+        margin: 0 auto;
+    }
+
+    .md_message_area .content_container {
+        max-width: 92.5vw;
+        margin: 0;
+        margin-left: auto;
+    }
+
+}
+
+@media (max-width: 1279px){
+    .bobbin_col img {
+        margin-top: 5.75vw;
+    }
+    .ourjourney_flex{
+        max-width: 80vw;
+        margin: 5.344vw auto 0;
+    }
+
+    .ourjourney_flex .ourjourney_col .ourjourney_box img{
+        max-width: 100%;
+    }
+
+    .font-highlight{
+        font-size: 64px;
+        line-height: 64px;
+    }
+    
+    .font-title{
+        font-size: 45px;
+        line-height: 50px;
+    }
+
+    .common_growth_purpose_flex .common_growth_purpose_col .common_growth_purpose_box h3,
+    .technology_flex .technology_box h3,
+    .technology_key_roadmap_flex .technology_key_area h3, .technology_key_roadmap_flex .technology_roadmap_area h3{
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .technology_flex .technology_box h3{
+        margin: 10px 0 15px;
+    }
+
+    .common_growth_purpose_flex .common_growth_purpose_col .common_growth_purpose_box ul{
+        padding-left: 0;
+    }
+
+    .common_growth_purpose_flex .common_growth_purpose_col .common_growth_purpose_box img{
+        max-width: 50px;
+    }
+    
+    .font-small-text,
+    .essential_metrics_area .top_main_metrics .main_metrics_column .main_metrics_box .main_metrics_text p,
+    .home_md_message_flex .home_md_message_right .author_designation_area .designation,
+    .warm_heading span,
+    .triangle span{
+        font-size: 14px;
+        line-height: 18px;
+    }
+    
+    .font-text,
+    .home_md_message_flex .home_md_message_left p.three-r-para,
+    .home_md_message_flex .home_md_message_right .author_designation_area .author,
+    .board_member_flex .board_member_col .board_member_box .board_member_info p:nth-child(1),
+    .company_overview_content .company_overview_key_points .overview_key_points_col .overview_key_points_box p,
+    .domestic_influence_data .influence_data_row h3,
+    .people_pedestal_flex .people_pedestal_col .people_pedestal_box .people_pedestal_heading span:nth-child(2){
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .company_overview_content .company_overview_key_points .overview_key_points_col .overview_key_points_box h3.font-text{
+        font-size: 20px;
+        line-height: 22px;
+        padding-bottom: 20px;
+        margin-bottom: 16px;
+        height: 56px;
+        min-height: unset;
+    }
+
+    .people_pedestal_flex .people_pedestal_col .people_pedestal_box .people_pedestal_heading,
+    .people_pedestal_management_area .people_pedestal_managment_row .people_pedestal_management_txt h3,
+    .community_four_s_flex .community_fours_col .community_fours_box h3,
+    .prevention_of_sexual_harrasment_area h2{
+        font-size: 22px;
+        line-height: 24px;
+    }
+
+    .incidents_ltifr_area .col_incidents h3,
+    .prevention_of_sexual_harrasment_flex .prevention_of_sexual_harrasment_col h3{
+        font-size: 28px;
+        line-height: unset;
+    }
+
+    .company_overview_content .company_overview_key_points .overview_key_points_col .overview_key_points_box p{
+        padding-top: 20px;
+    }
+
+    .board_member_flex .board_member_col .board_member_box .board_member_info p:nth-child(1){
+        margin-bottom: 10px;
+    }
+
+    .redirection_link .redirect_text{
+        padding-right: 20px;
+    }
+
+    .redirection_link svg{
+        max-width: 34px;
+        transform: translateX(-14px);
+    }
+
+    .redirection_link:hover svg{
+        transform: translateX(-10px);
+    }
+
+    .redirection_link{
+        height: 26px;
+    }
+
+    .redirection_link .redirect_icon{
+        height: 26px;
+        width: 26px;
+    }
+
+    .home_md_message_flex .home_md_message_right p.message_quote{
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .essential_metrics_area .top_main_metrics .main_metrics_column .main_metrics_box .main_metrics_text p:nth-child(1) br{
+        display: none;
+    }
+
+    .essential_metrics_area .top_main_metrics .main_metrics_column .main_metrics_box .main_metrics_text .metrics_no{
+        font-size: 28px;
+        margin: 5px 0;
+    }
+
+    .progress_graphs .graph .bar1, .progress_graphs .graph .bar2, .progress_graphs .graph .bar3, .progress_graphs .graph .bar4, .progress_graphs .graph .bar5{
+        font-size: 12px;
+    }
+
+    .progress_bar_area .progress_bar_column .fy{
+        font-size: 11px;
+    }
+
+    .progress_graphs .graph h3{
+        margin-top: 24px;
+    }
+
+    .download_section .download_centre_flex .download_pdf_col .download_pdf_box h3,
+    .value_creation_model_parent_flex .creation_model_parent_col .creation_model_parent_box h3,
+    .enablers_partners_flex .enablers_partners_flex_col .enablers_partners_flex_box span,
+    .commitment_value_box h2,
+    .input_output_outcomes_header_row .input_output_outcomes_col h2{
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .download_section .download_centre_flex .download_pdf_col .download_pdf_box img,
+    .community_four_s_flex .community_fours_col .community_fours_box img{
+        max-width: 70px;
+    }
+
+    .download_section .download_centre_flex .download_pdf_col .download_pdf_box{
+        min-height: 220px;
+    }
+
+    .footer{
+        padding: 15px 10px;
+    }
+
+    .scale_data .scale_text h2{
+        font-size: 24px;
+        line-height: normal;
+    }
+
+    .nurturing_excellence_para_flex p{
+        line-height: 20px;
+    }
+
+    .redirect_link span:nth-child(1){
+        height: 16px;
+        width: 16px;
+    }
+
+    .redirect_link span:nth-child(1) svg{
+        height: 13px;
+        width: 13px;
+    }
+
+    .redirect_link span:nth-child(2){
+        padding-left: 8px;
+    }
+
+    .main_md_message_area{
+        padding-bottom: 15vw;
+    }
+    
+}
+
+@media (max-width: 991px){
+    .font-highlight{
+        font-size: 50px;
+        line-height: 50px;
+    }
+    
+    .font-title{
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+    .excellence_area,
+    .excellence_area .excellence_flex,
+    .home_md_message_area{
+        height: 100%;
+    }
+
+    .excellence_area .excellence_flex{
+        flex-direction: column-reverse;
+    }
+
+    .excellence_area .excellence_flex .excellence_left_area,
+    .excellence_area .excellence_flex .excellence_right_area,
+    .home_md_message_flex .home_md_message_left,
+    .home_md_message_flex .home_md_message_right{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .excellence_area .excellence_flex .excellence_left_area img{
+        width: 100%;
+        height: auto;
+    }
+
+    .nurturing_desktop{
+        display: none;
+    }
+
+    .nurturing_desktop_mob{
+        display: block;
+    }
+
+    .excellence_area .excellence_flex .excellence_right_area .excellence_content{
+        padding: 50px 20px;
+    }
+
+    .excellence_area .excellence_flex .excellence_right_area .excellence_content .excellence_content_para{
+        max-width: 100%;
+        margin: 15px 0;
+    }
+
+    .home_md_message_area .content_container{
+        max-width: 100%;
+    }
+
+    .home_md_message_area{
+        background: #01377b;
+    }
+    
+    .home_md_message_area::before,
+    .home_md_message_area::after{
+        height: 100%;
+        width: 100%;
+        display: none;
+    }
+
+    .home_md_message_flex .home_md_message_left{
+        padding: 70px 20px;
+    }
+
+    .home_md_message_flex .home_md_message_right{
+        padding: 70px 20px 0;
+    }
+
+    .md_img{
+        position: relative;
+        display: block;
+        margin-left: auto;
+        max-width: 320px;
+    }
+
+    .home_md_message_flex .home_md_message_left p.three-r-para{
+        margin: 20px 0 50px;
+    }
+
+    .essential_metrics_area .metrics_flex_heading{
+        margin-bottom: 10px;
+    }
+
+    .essential_metrics_area .top_main_metrics .main_metrics_column{
+        flex: 0 0 49%;
+        max-width: 49%;
+    }
+
+    .essential_metrics_area .top_main_metrics .main_metrics_column:not(:last-child){
+        margin-bottom: 50px;
+    }
+
+    .essential_metrics_area .top_main_metrics .main_metrics_column .main_metrics_box .main_metrics_img img{
+        max-width: 50px;
+    }
+
+    .essential_metrics_area .top_main_metrics .main_metrics_column .main_metrics_box .main_metrics_text .metrics_no{
+        font-size: 24px;
+    }
+
+    .essential_metrics_area .top_main_metrics{
+        margin: 40px 0 0;
+    }
+
+    .circular_dot_bg{
+        width: 500px;
+        height: 500px;
+        max-width: 100%;
+        top: 60%;
+        opacity: 0.5;
+    }
+
+    .microsite_navigate_carousel .microsite_navigate_box h2{
+        font-size: 36px;
+        letter-spacing: 0.5px;
+        line-height: 40px;
+    }
+
+    .microsite_navigate_carousel{
+        padding: 70px 0;
+    }
+
+    .microsite_navigate_carousel .owl-nav{
+        top: -55px
+    }
+
+    .microsite_navigate_carousel .owl-nav button{
+        height: 40px;
+        width: 40px;
+    }
+
+    .microsite_navigate_carousel .owl-nav button svg{
+        width: 24px;
+        height: 24px;
+    }
+
+    .business_highlight_area .metrics_flex .metrics_column .metrics_box{
+        padding: 20px;
+        min-height: 150px;
+    }
+
+    .business_highlight_area,
+    .progress_pulse_area,
+    .download_section,
+    .commitment_quality_area,
+    .product_innovation_area,
+    .our_logos_area{
+        padding: 70px 20px;
+    }
+
+    
+    .business_highlight_area .metrics_flex{
+        margin: 3% 0;
+    }
+
+    .download_section .download_centre_flex .download_pdf_col{
+        padding: 0 10px;
+    }
+
+    .download_section .download_centre_flex{
+        margin: 20px -10px 24px;
+    }
+
+    .menu_toogle .hamburger span{
+        font-size: 18px;
+    }
+    .menu_toogle .hamburger svg{
+        font-size: 20px;
+        height: 20px;
+    }
+
+    aside{
+        width: 100%;
+    }
+
+    .navbar_area{
+        height: 100px;
+    }
+
+    .logo_area img{
+        max-width: 80px;
+    }
+
+    .main_md_message_area,
+    .main_board_members_area,
+    .main_transformation_technology,
+    .main_our_journey_area{
+        padding: 120px 20px 20px;
+    }
+
+    .company_overview_content,
+    .main_growth_with_purpose_area,
+    .main_putting_people_pedestal,
+    .main_caring_community_area,
+    .quarter_results_area,
+    .min_value_creation_model_area{
+        padding: 120px 20px 200px;
+    }
+
+    #accordion .card-header{
+        padding: 10px;
+    }
+
+    #accordion .card-header button span,
+    #accordion .card-header button a{
+        font-size: 14px;
+    }
+
+    #accordion .card-header button svg{
+        height: 24px;
+        width: 24px;
+    }
+
+    #accordion .card-body ul li a{
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+
+    .slider_logo img{
+        max-width: 100px;
+    }
+
+    .close_slider .close_menu{
+        width: 80px;
+        padding: 10px;
+    }
+
+    .close_slider .close_menu svg{
+        width: 20px;
+        height: 20px;
+    }
+
+    .close_slider .close_menu span{
+        font-size: 14px;
+    }
+
+    .board_member_flex .board_member_col .board_member_box .board_member_img{
+        height: 300px;
+    }
+
+    .board_member_flex .board_member_col .board_member_box .board_member_info{
+        padding: 16px 10px;
+    }
+
+    .board_member_heading,
+    .commitment_quality_area .heaing_img_vector,
+.product_innovation_area .heaing_img_vector,
+.our_logos_area .heaing_img_vector,
+.company_overview_content .company_overview_heading,
+.growth_with_purpose_heading,
+.transformation_with_technology_heading,
+.people_pedestal_flex .people_pedestal_col .people_pedestal_box .people_pedestal_heading p,
+.putting_people_pedestal_heading,
+.our_journey_heading{
+        margin-bottom: 10px;
+    }
+
+    .circle{
+        display: none;
+    }
+
+    .mobile_circle{
+        display: block;
+    }
+
+    .domestic_influenece_global_search_flex .map_left_area, .domestic_influenece_global_search_flex .map_right_area{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .product_flex .product_box{
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+
+    .common_growth_purpose_flex .common_growth_purpose_col .common_growth_purpose_box{
+        padding: 15px;
+    }
+
+    .common_growth_purpose_flex .common_growth_purpose_col .common_growth_purpose_box h3{
+        margin: 12px 0;
+    }
+
+    .technology_flex .technology_box{
+        padding: 20px;
+    }
+
+    .technology_key_roadmap_flex .technology_key_area ul li:not(:last-child), .technology_key_roadmap_flex .technology_roadmap_area ul li:not(:last-child){
+        margin-bottom: 12px;
+    }
+
+    .people_pedestal_management_area .people_pedestal_managment_row .people_pedestal_management_icon img{
+        max-width: 70px;
+    }
+
+    .note_txt{
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .people_pedestal_management_area, .health_safety_performance, .health_safety_performance_table{
+        margin-top: 25px;
+    }
+
+    .community_four_s_flex .community_fours_col .community_fours_box{
+        padding: 30px 20px;
+    }
+
+    .community_four_s_flex .community_fours_col .community_fours_box h3{
+        margin: 12px 0;
+    }
+
+    .table_col_one,
+    .table_col_two_head_two .table_col_two_sub_head,
+    .table_col_three_head_two,
+    .table_col_two_head_one, .table_col_three_head_one{
+        padding: 10px;
+    }
+
+    .table_body .table_body_row div{
+        height: 56px;
+    }
+
+    .value_creation_model_parent_flex .creation_model_parent_col .creation_model_parent_box h3,
+    .enablers_partners_flex .enablers_partners_flex_col .enablers_partners_flex_box span,
+    .commitment_value_box h2{
+        height: 56px;
+    }
+    
+    .input_output_outcomes_header_row .input_output_outcomes_col h2{
+        height: 45px;
+    }
+
+    .quater_result_table{
+        margin-top: 30px;
+    }
+
+    .input_output_outcomes_header_row, .input_output_outcomes_body_row{
+        margin: 0 0 15px;
+    }
+
+    .input_output_outcomes_body_row .input_output_outcomes_col img{
+        max-width: 50px;
+    }
+
+    .mobile_our_journey{
+        display: block
+    }
+
+    .ourjourney_flex{
+        display: none;
+    }
+
+    .main_nurturing_excellence_area{
+        padding: 120px 20px 220px;
+    }
+
+    .main_md_message_area{
+        padding-bottom: 15vw;
+    }
+
+    .mesaage_flex .right_message_area img{
+        max-width: 45vw;
+    }
+
+    .banner_area img{
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .annual_report_heading{
+        top: 120px;
+    }
+
+    .three_r_img_container{
+        top: 140px;
+    }
+
+    .three_r_img_container h2{
+        font-size: 65px;
+    }
+
+    .annual_report_heading h4{
+        font-size: 20px;
+        transform: translateY(32px);
+    }
+
+    .three_r_img_container h2:nth-child(2){
+        margin: 0 15px;
+    }
+}
+
+@media (max-width: 767px){
+    .business_highlight_area .metrics_flex .metrics_column{
+        flex: 33.33%;
+        max-width: 33.33%;
+        padding: 0;
+    }
+
+    .business_highlight_area .metrics_flex .metrics_column .metrics_box img{
+        width: unset;
+        max-width: 100%;
+    }
+
+    .download_section .download_centre_flex .download_pdf_col{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .download_section .download_centre_flex .download_pdf_col .download_pdf_box{
+        padding: 20px;
+    }
+
+    .download_section .download_centre_flex .download_pdf_col .download_pdf_box h3{
+        margin: 16px 0;
+    }
+
+    .download_section .download_centre_flex .download_pdf_col .download_pdf_box h3{
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .mesaage_flex .left_message_area, .mesaage_flex .right_message_area{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .message_sub_heading{
+        margin-bottom: 16px;
+    }
+
+    .warm_heading{
+        margin: 20px 0;
+    }
+
+    .mesaage_flex .left_message_area ul li, .mesaage_flex .right_message_area ul li{
+        padding-left: 15px;
+    }
+
+    .mesaage_flex .left_message_area ul li:not(:last-child), .mesaage_flex .right_message_area ul li:not(:last-child){
+        margin-bottom: 10px;
+    }
+
+    .board_member_flex .board_member_col,
+    .people_pedestal_flex .people_pedestal_col{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .company_overview_content .company_overview_key_points .overview_key_points_col{
+        flex: 0 0 50%;
+        max-width: 50%;
+        padding: 0 15px;
+    }
+
+    .commitment_logo_flex .commitment_logo_col{
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+    }
+
+    .commitment_logo_flex .commitment_logo_col .commitment_logo_box{
+        height: 150px;
+        width: 150px;
+        border: 5px solid #3275ba;
+    }
+
+    .commitment_logo_flex .commitment_logo_col .commitment_logo_box img,
+    .technology_flex .technology_box img{
+        max-width: 70px;
+    }
+
+    .commitment_logo_flex .commitment_logo_col .commitment_logo_txt{
+        margin-top: -20px;
+    }
+
+    .product_flex .product_box{
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+        padding: 20px;
+    }
+
+    .product_flex{
+        margin: 25px -20px 0;
+    }
+
+    .process_purpose_area,
+.planet_purpose_area{
+    margin:50px 0;
+}
+
+.technology_key_roadmap_flex .technology_key_area, .technology_key_roadmap_flex .technology_roadmap_area,
+.technology_flex .technology_col{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.people_pedestal_flex .people_pedestal_col .people_pedestal_box .people_pedestal_heading,
+.people_pedestal_management_area .people_pedestal_managment_row .people_pedestal_management_txt h3,
+.prevention_of_sexual_harrasment_area h2{
+    font-size: 20px;
+}
+
+.incidents_ltifr_area .col_incidents h3,
+.prevention_of_sexual_harrasment_flex .prevention_of_sexual_harrasment_col h3{
+    font-size: 24px;
+}
+
+.people_pedestal_flex{
+    margin: 25px -20px 0;
+}
+
+.people_pedestal_flex .people_pedestal_col{
+    padding: 20px;
+}
+
+.incidents_ltifr_area{
+    margin-top: 25px;
+    flex-wrap: wrap;
+}
+
+.incidents_ltifr_area .col_incidents{
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-bottom: 10px;
+}
+
+.incidents_ltifr_area .col_incidents:nth-child(2){
+    border-right: none;
+}
+
+.main_caring_community_area{
+    padding: 120px 20px 400px;
+}
+
+.quater_result_table{
+    overflow: auto;
+}
+
+.table_col_one, .table_col_two{
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.input_output_outcomes_area{
+    overflow: auto;
+}
+
+.input_output_outcomes_header_row .input_output_outcomes_col, .input_output_outcomes_body_row .input_output_outcomes_col,
+.input_output_outcomes_header_row .input_output_outcomes_col:nth-child(4), .input_output_outcomes_body_row .input_output_outcomes_col:nth-child(4){
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+.nurturing_excellence_para_flex .right_para_nurturing, .nurturing_excellence_para_flex .left_para_nurturing{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.starting_line_font{
+    margin-bottom: 485px;
+}
+
+.download_section .download_centre_flex .download_pdf_col .download_pdf_box .download_link{
+    bottom: 20px;
+}
+
+.microsite_navigate_carousel .microsite_navigate_box:hover .overlay_content{
+    bottom: 15px;
+}
+
+.home_md_message_flex .home_md_message_right{
+    background: transparent;
+}
+
+.home_md_message_area .content_container{
+    position: relative;
+    z-index: 3;
+}
+
+.main_md_message_area{
+    padding-bottom: 10vw;
+}
+
+.mesaage_flex .right_message_area img{
+    max-width: 300px;
+}
+
+.main_md_message_area{
+    padding-bottom: 450px;
+}
+
+}
+
+@media (max-width: 576px){
+    .business_highlight_area .metrics_flex .metrics_column{
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 0;
+    }
+
+    .download_section .download_centre_flex .download_pdf_col{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .board_member_flex .board_member_col{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .board_member_flex .board_member_col .board_member_box .board_member_img{
+        height: 400px;
+    }
+
+    .company_overview_content .company_overview_key_points .overview_key_points_col,
+    .common_growth_purpose_flex .common_growth_purpose_col{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .commitment_logo_flex .commitment_logo_col{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .commitment_logo_flex .commitment_logo_col .commitment_logo_box{
+        height: 100px;
+        width: 100px;
+    }
+
+    .commitment_logo_flex .commitment_logo_col .commitment_logo_box img{
+        max-width: 50px;
+    }
+
+    .domestic_influence_data{
+        position: unset;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px 20px 0;
+    }
+
+    .domestic_influence_data .influence_data_row:nth-child(1) h3::after,
+    .domestic_influence_data .influence_data_row:nth-child(3) h3::after{
+        width: 10px;
+        height: 10px;
+    }
+
+    .domestic_influence_data .influence_data_row:nth-child(2) h3::after {
+        border-left: 7px solid transparent;
+        border-right: 7px solid transparent;
+        border-bottom: 10px solid black;
+    }
+
+    .domestic_influence_data .influence_data_row h3{
+        padding-left: 15px;
+    }
+
+    .influence_data_row{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .product_flex .product_box{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .heaing_img_vector img{
+        max-width: 22px;
+    }
+
+    .global_reach_data{
+        flex-direction: column;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    align-items: center;
+    }
+
+    .global_reach_data{
+        position: unset;
+        transform: unset;
+    }
+
+    .scale_data:nth-child(2){
+        margin: 25px 0 50px;
+    }
+
+    .scale_data .arrow_img{
+        transform: rotate(90deg) translateX(0);
+        /* margin-top: 25px; */
+        animation: moveupdown 1.5s ease-in-out infinite;
+    }
+
+    @keyframes moveupdown{
+        0% {
+            transform: rotate(90deg) translateX(10px);
+        }
+        
+        100% {
+            transform: rotate(90deg) translateX(30px);
+        }
+    }
+
+    .people_pedestal_management_area .people_pedestal_managment_row,
+    .people_pedestal_management_area .people_pedestal_managment_row:nth-child(even){
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .people_pedestal_management_area .people_pedestal_managment_row:nth-child(odd) .people_pedestal_management_txt,
+    .people_pedestal_management_area .people_pedestal_managment_row:nth-child(even) .people_pedestal_management_txt{
+        text-align: left;
+        border: none;
+        margin-top: 15px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .health_safety_performance_table{
+        overflow: auto;
+    }
+
+    .health_safety_performance_table_row .health_safety_performance_table_col{
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+
+    .prevention_of_sexual_harrasment_flex .prevention_of_sexual_harrasment_col{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .community_four_s_flex .community_fours_col{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .main_caring_community_area {
+        padding: 120px 20px 100px;
+        background-size: 100% 150%;
+        background-position: top;
+    }
+
+    .table_col_one{
+        flex: 0 0 95%;
+        max-width: 95%;
+    }
+
+    .table_col_two{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .table_body .table_body_row:nth-child(even) > div br{
+        display: none;
+    }
+
+    .input_output_outcomes_header_row .input_output_outcomes_col, .input_output_outcomes_body_row .input_output_outcomes_col,
+.input_output_outcomes_header_row .input_output_outcomes_col:nth-child(4), .input_output_outcomes_body_row .input_output_outcomes_col:nth-child(4){
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.input_output_outcomes_area{
+    background: rgb(235,237,226);
+    background: linear-gradient(90deg, rgba(235,237,226,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+.input_output_outcomes_body_row{
+    background: none;
+    border: none;
+}
+.input_output_outcomes_body_row .input_output_outcomes_col{
+   border-top: 0.052vw solid rgb(190, 181, 146);
+   border-bottom: 0.052vw solid rgb(190, 181, 146);
+}
+
+.input_output_outcomes_body_row .input_output_outcomes_col:first-child{
+    border-left: 0.052vw solid rgb(190, 181, 146);
+}
+
+.input_output_outcomes_body_row .input_output_outcomes_col:last-child{
+    border-right: 0.052vw solid rgb(190, 181, 146);
+}
+
+.input_output_outcomes_header_row .input_output_outcomes_col, .input_output_outcomes_body_row .input_output_outcomes_col{
+    padding: 15px;
+}
+
+.starting_line_font{
+    margin-bottom: 575px;
+}
+
+.starting_line_font br{
+    display: none;
+}
+
+.commitment_logo_flex{
+    align-items: flex-start;
+}
+
+.large_view{
+    display: none;
+}
+
+.small_device_img{
+    display: block;
+}
+
+.three_r_img_container{
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.three_r_img_container h2:nth-child(2){
+    margin: 0;
+}
+
+.annual_report_heading{
+    top: 100px;
+}
+
+.three_r_img_container{
+    top: 125px;
+}
+
+.three_r_img_container h2 {
+    font-size: 75px;
+    line-height: 75px;
+}
+
+}

@@ -1,0 +1,1135 @@
+.progress_graphs{
+    /* display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    -webkit-box-pack: justify;
+    justify-content: space-between; */
+    margin-top: 70px;
+    /* overflow-x: auto; */
+  }
+
+  /* .graph_container{
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+  } */
+
+  .progress_graphs .graph{
+    /* flex: 0 0 31%;
+    max-width: 31%; */
+    padding: 1.302vw 0;
+  }
+
+  /* .progress_graphs .graph h3{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 40px;
+  }
+
+  .progress_graphs .graph h3 span{
+    font-size: 14px;
+  } */
+
+  .progress_graphs .graph{
+    position: relative;
+  }
+
+  .progress_graphs .graph h3{
+    margin-top: 1.644vw;
+    text-align: center;
+    font-weight: 600;
+  }
+
+ .progress_graphs .graph .bar1,
+  .progress_graphs .graph .bar2,
+  .progress_graphs .graph .bar3,
+  .progress_graphs .graph .bar4,
+  .progress_graphs .graph .bar5{
+    position: absolute;
+    font-size: 0.677vw;
+    font-weight: 600;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    z-index: 1;
+  }
+
+  .progress_bar_area{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    height: 350px;
+    border-bottom: 1px solid #8d8d8d;
+    padding: 0 0.521vw;
+  }
+
+  .graph_area{
+    position: relative;
+  }
+
+ .graph_area .line{
+    width: 100%;
+    height: 1px;
+    background: #f1f1f2;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: none;
+    z-index: -1;
+  }
+  .graph_area .line:nth-of-type(1){
+    bottom: 10%;
+  }
+  .graph_area .line:nth-of-type(2){
+    bottom: 20%;
+  }
+  .graph_area .line:nth-of-type(3){
+    bottom: 30%;
+  }
+  .graph_area .line:nth-of-type(4){
+    bottom: 40%;
+  }
+  .graph_area .line:nth-of-type(5){
+    bottom: 50%;
+  }
+  .graph_area .line:nth-of-type(6){
+    bottom: 60%;
+  }
+  .graph_area .line:nth-of-type(7){
+    bottom: 70%;
+  }
+  .graph_area .line:nth-of-type(8){
+    bottom: 80%;
+  }
+  .graph_area .line:nth-of-type(9){
+    bottom: 90%;
+  }
+  .graph_area .line:nth-of-type(10){
+    bottom: 100%;
+  }
+
+  .progress_bar_area .progress_bar_column{
+    flex: 0 0 15%;
+    max-width: 15%;
+    /* background: #111;s */
+    position: relative;
+  }
+
+  .progress_bar_area .progress_bar_column .fy{
+    font-size: 0.677vw;
+    position: absolute;
+    bottom: -20px;
+    z-index: 1;
+    left: 50%;
+    transform: translateX(-50%);
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+
+  .progress_bar_area .progress_bar_column::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    display: block;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+
+  /* Graph One */
+  .graph:nth-child(1) .progress_bar_area .progress_bar_column:nth-child(1)::after,
+  .graph:nth-child(1) .progress_bar_area .progress_bar_column:nth-child(2)::after{
+    background: #e6e6e6;
+  }
+
+  .graph:nth-child(1) .progress_bar_area .progress_bar_column:nth-child(3)::after,
+  .graph:nth-child(1) .progress_bar_area .progress_bar_column:nth-child(4)::after{
+    background: #ddd;
+  }
+
+  .graph:nth-child(1) .progress_bar_area .progress_bar_column:nth-child(5)::after{
+    background: #d11c26;
+  }
+
+  .graph:nth-child(1) .progress_bar_area .progress_bar_column:nth-child(1)::after{
+    height: 55%;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: 2s ease-in all;
+  }
+
+  .graph:nth-child(1) .progress_bar_area .progress_bar_column:nth-child(2)::after{
+    height: 65%;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: 2s ease-in all;
+  }
+
+  .graph:nth-child(1) .progress_bar_area .progress_bar_column:nth-child(3)::after{
+    height: 50%;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: 2s ease-in all;
+  }
+
+  .graph:nth-child(1) .progress_bar_area .progress_bar_column:nth-child(4)::after{
+    height: 80%;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: 2s ease-in all;
+  }
+
+  .graph:nth-child(1) .progress_bar_area .progress_bar_column:nth-child(5)::after{
+    height: 75%;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: 2s ease-in all;
+  }
+
+  .graph:nth-child(1).fill .progress_bar_area .progress_bar_column:nth-child(1)::after,
+  .graph:nth-child(1).fill .progress_bar_area .progress_bar_column:nth-child(2)::after,
+  .graph:nth-child(1).fill .progress_bar_area .progress_bar_column:nth-child(3)::after,
+  .graph:nth-child(1).fill .progress_bar_area .progress_bar_column:nth-child(4)::after,
+  .graph:nth-child(1).fill .progress_bar_area .progress_bar_column:nth-child(5)::after{
+    transform: scaleY(1);
+  }
+
+   .progress_graphs .graph:nth-child(1) .bar1{
+    bottom: 70%;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s ease-in all 2s;
+  }
+
+  .progress_graphs .graph:nth-child(1).fill .bar1{
+    bottom: 60%;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .progress_graphs .graph:nth-child(1) .bar2{
+    bottom: 80%;
+    opacity: 0;
+     visibility: hidden;
+    transition: 0.5s ease-in all 2s;
+  }
+
+  .progress_graphs .graph:nth-child(1).fill .bar2{
+    bottom: 70%;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .progress_graphs .graph:nth-child(1) .bar3{
+    bottom: 85%;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s ease-in all 2s;
+  }
+
+  .progress_graphs .graph:nth-child(1).fill .bar3{
+    bottom: 55%;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .progress_graphs .graph:nth-child(1) .bar4{
+    bottom: 95%;
+    opacity: 0;
+     visibility: hidden;
+    transition: 0.5s ease-in all 2s;
+  }
+
+  .progress_graphs .graph:nth-child(1).fill .bar4{
+    bottom: 86%;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .progress_graphs .graph:nth-child(1) .bar5{
+    bottom: 90%;
+    opacity: 0;
+     visibility: hidden;
+    transition: 0.5s ease-in all 2s;
+  }
+
+  .progress_graphs .graph:nth-child(1).fill .bar5{
+    bottom: 82%;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  /* Graph Two */
+  .graph:nth-child(2) .progress_bar_area .progress_bar_column:nth-child(1)::after,
+  .graph:nth-child(2) .progress_bar_area .progress_bar_column:nth-child(2)::after{
+    background: #e6e6e6;
+  }
+
+  .graph:nth-child(2) .progress_bar_area .progress_bar_column:nth-child(3)::after,
+  .graph:nth-child(2) .progress_bar_area .progress_bar_column:nth-child(4)::after{
+    background: #ddd;
+  }
+
+  .graph:nth-child(2) .progress_bar_area .progress_bar_column:nth-child(5)::after{
+    background: #d11c26;
+  }
+
+  .graph:nth-child(2) .progress_bar_area .progress_bar_column:nth-child(1)::after{
+    height: 65%;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: 2s ease-in all;
+  }
+
+  .graph:nth-child(2) .progress_bar_area .progress_bar_column:nth-child(2)::after{
+    height: 70%;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: 2s ease-in all;
+  }
+
+  .graph:nth-child(2) .progress_bar_area .progress_bar_column:nth-child(3)::after{
+    height: 77%;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: 2s ease-in all;
+  }
+
+  .graph:nth-child(2) .progress_bar_area .progress_bar_column:nth-child(4)::after{
+    height: 82%;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: 2s ease-in all;
+  }
+
+  .graph:nth-child(2) .progress_bar_area .progress_bar_column:nth-child(5)::after{
+    height: 95%;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: 2s ease-in all;
+  }
+
+  .graph:nth-child(2).fill .progress_bar_area .progress_bar_column:nth-child(1)::after,
+  .graph:nth-child(2).fill .progress_bar_area .progress_bar_column:nth-child(2)::after,
+  .graph:nth-child(2).fill .progress_bar_area .progress_bar_column:nth-child(3)::after,
+  .graph:nth-child(2).fill .progress_bar_area .progress_bar_column:nth-child(4)::after,
+  .graph:nth-child(2).fill .progress_bar_area .progress_bar_column:nth-child(5)::after{
+    transform: scaleY(1);
+  }
+
+  .progress_graphs .graph:nth-child(2) .bar1{
+    bottom: 79%;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s ease-in all 2s;
+  }
+
+  .progress_graphs .graph:nth-child(2).fill .bar1{
+    bottom: 69%;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .progress_graphs .graph:nth-child(2) .bar2{
+    bottom: 84%;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s ease-in all 2s;
+  }
+
+  .progress_graphs .graph:nth-child(2).fill .bar2{
+    bottom: 74%;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .progress_graphs .graph:nth-child(2) .bar3{
+    bottom: 92%;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s ease-in all 2s;
+  }
+
+  .progress_graphs .graph:nth-child(2).fill .bar3{
+    bottom: 82%;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .progress_graphs .graph:nth-child(2) .bar4{
+    bottom: 97%;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s ease-in all 2s;
+  }
+
+  .progress_graphs .graph:nth-child(2).fill .bar4{
+    bottom: 87%;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .progress_graphs .graph:nth-child(2) .bar5{
+    bottom: 109%;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s ease-in all 2s;
+  }
+
+  .progress_graphs .graph:nth-child(2).fill .bar5{
+    bottom: 99%;
+    opacity: 1;
+    visibility: visible;
+  }
+
+
+  /* Graph Three */
+  .graph:nth-child(3) .progress_bar_area .progress_bar_column:nth-child(1)::after,
+  .graph:nth-child(3) .progress_bar_area .progress_bar_column:nth-child(2)::after{
+    background: #e6e6e6;
+  }
+
+  .graph:nth-child(3) .progress_bar_area .progress_bar_column:nth-child(3)::after,
+  .graph:nth-child(3) .progress_bar_area .progress_bar_column:nth-child(4)::after{
+    background: #ddd;
+  }
+
+  .graph:nth-child(3) .progress_bar_area .progress_bar_column:nth-child(5)::after{
+    background: #d11c26;
+  }
+
+  .graph:nth-child(3) .progress_bar_area .progress_bar_column:nth-child(1)::after{
+    height: 40%;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: 2s ease-in all;
+  }
+
+  .graph:nth-child(3) .progress_bar_area .progress_bar_column:nth-child(2)::after{
+    height: 57%;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: 2s ease-in all;
+  }
+
+  .graph:nth-child(3) .progress_bar_area .progress_bar_column:nth-child(3)::after{
+    height: 50%;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: 2s ease-in all;
+  }
+
+  .graph:nth-child(3) .progress_bar_area .progress_bar_column:nth-child(4)::after{
+    height: 92%;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: 2s ease-in all;
+  }
+
+  .graph:nth-child(3) .progress_bar_area .progress_bar_column:nth-child(5)::after{
+    height: 85%;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: 2s ease-in all;
+  }
+
+  .graph:nth-child(3).fill .progress_bar_area .progress_bar_column:nth-child(1)::after,
+  .graph:nth-child(3).fill .progress_bar_area .progress_bar_column:nth-child(2)::after,
+  .graph:nth-child(3).fill .progress_bar_area .progress_bar_column:nth-child(3)::after,
+  .graph:nth-child(3).fill .progress_bar_area .progress_bar_column:nth-child(4)::after,
+  .graph:nth-child(3).fill .progress_bar_area .progress_bar_column:nth-child(5)::after{
+    transform: scaleY(1);
+  }
+
+  .progress_graphs .graph:nth-child(3) .bar1{
+    bottom: 50%;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s ease-in all 2s;
+  }
+
+  .progress_graphs .graph:nth-child(3).fill .bar1{
+    bottom: 44%;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .progress_graphs .graph:nth-child(3) .bar2{
+    bottom: 66%;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s ease-in all 2s;
+  }
+
+  .progress_graphs .graph:nth-child(3).fill .bar2{
+    bottom: 62%;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .progress_graphs .graph:nth-child(3) .bar3{
+    bottom: 64%;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s ease-in all 2s;
+  }
+
+  .progress_graphs .graph:nth-child(3).fill .bar3{
+    bottom: 55%;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .progress_graphs .graph:nth-child(3) .bar4{
+    bottom: 102%;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s ease-in all 2s;
+  }
+
+  .progress_graphs .graph:nth-child(3).fill .bar4{
+    bottom: 96%;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .progress_graphs .graph:nth-child(3) .bar5{
+    bottom: 95%;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s ease-in all 2s;
+  }
+
+  .progress_graphs .graph:nth-child(3).fill .bar5{
+    bottom: 90%;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  /* Graph Four */
+  .graph:nth-child(4) .progress_bar_area .progress_bar_column:nth-child(1)::after,
+  .graph:nth-child(4) .progress_bar_area .progress_bar_column:nth-child(2)::after{
+    background: #e6e6e6;
+  }
+
+  .graph:nth-child(4) .progress_bar_area .progress_bar_column:nth-child(3)::after,
+  .graph:nth-child(4) .progress_bar_area .progress_bar_column:nth-child(4)::after{
+    background: #ddd;
+  }
+
+  .graph:nth-child(4) .progress_bar_area .progress_bar_column:nth-child(5)::after{
+    background: #d11c26;
+  }
+
+  .graph:nth-child(4) .progress_bar_area .progress_bar_column:nth-child(1)::after{
+    height: 63%;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: 2s ease-in all;
+  }
+
+  .graph:nth-child(4) .progress_bar_area .progress_bar_column:nth-child(2)::after{
+    height: 79%;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: 2s ease-in all;
+  }
+
+  .graph:nth-child(4) .progress_bar_area .progress_bar_column:nth-child(3)::after{
+    height: 83%;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: 2s ease-in all;
+  }
+
+  .graph:nth-child(4) .progress_bar_area .progress_bar_column:nth-child(4)::after{
+    height: 92%;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: 2s ease-in all;
+  }
+
+  .graph:nth-child(4) .progress_bar_area .progress_bar_column:nth-child(5)::after{
+    height: 64%;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: 2s ease-in all;
+  }
+
+  .graph:nth-child(4).fill .progress_bar_area .progress_bar_column:nth-child(1)::after,
+  .graph:nth-child(4).fill .progress_bar_area .progress_bar_column:nth-child(2)::after,
+  .graph:nth-child(4).fill .progress_bar_area .progress_bar_column:nth-child(3)::after,
+  .graph:nth-child(4).fill .progress_bar_area .progress_bar_column:nth-child(4)::after,
+  .graph:nth-child(4).fill .progress_bar_area .progress_bar_column:nth-child(5)::after{
+    transform: scaleY(1);
+  }
+
+  .progress_graphs .graph:nth-child(4) .bar1{
+    bottom: 79%;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s ease-in all 2s;
+  }
+
+  .progress_graphs .graph:nth-child(4).fill .bar1{
+    bottom: 69%;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .progress_graphs .graph:nth-child(4) .bar2{
+    bottom: 90%;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s ease-in all 2s;
+  }
+
+  .progress_graphs .graph:nth-child(4).fill .bar2{
+    bottom: 86%;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .progress_graphs .graph:nth-child(4) .bar3{
+    bottom: 93%;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s ease-in all 2s;
+  }
+
+  .progress_graphs .graph:nth-child(4).fill .bar3{
+    bottom: 89%;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .progress_graphs .graph:nth-child(4) .bar4{
+    bottom: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s ease-in all 2s;
+  }
+
+  .progress_graphs .graph:nth-child(4).fill .bar4{
+    bottom: 96%;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .progress_graphs .graph:nth-child(4) .bar5{
+    bottom: 78%;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s ease-in all 2s;
+  }
+
+  .progress_graphs .graph:nth-child(4).fill .bar5{
+    bottom: 68%;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  /* Graph Five */
+  .graph:nth-child(5) .progress_bar_area .progress_bar_column:nth-child(1)::after,
+  .graph:nth-child(5) .progress_bar_area .progress_bar_column:nth-child(2)::after{
+    background: #e6e6e6;
+  }
+
+  .graph:nth-child(5) .progress_bar_area .progress_bar_column:nth-child(3)::after,
+  .graph:nth-child(5) .progress_bar_area .progress_bar_column:nth-child(4)::after{
+    background: #ddd;
+  }
+
+  .graph:nth-child(5) .progress_bar_area .progress_bar_column:nth-child(5)::after{
+    background: #d11c26;
+  }
+
+  .graph:nth-child(5) .progress_bar_area .progress_bar_column:nth-child(1)::after{
+    height: 10%;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: 2s ease-in all;
+  }
+
+  .graph:nth-child(5) .progress_bar_area .progress_bar_column:nth-child(2)::after{
+    height: 29%;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: 2s ease-in all;
+  }
+
+  .graph:nth-child(5) .progress_bar_area .progress_bar_column:nth-child(3)::after{
+    height: 23%;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: 2s ease-in all;
+  }
+
+  .graph:nth-child(5) .progress_bar_area .progress_bar_column:nth-child(4)::after{
+    height: 85%;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: 2s ease-in all;
+  }
+
+  .graph:nth-child(5) .progress_bar_area .progress_bar_column:nth-child(5)::after{
+    height: 15%;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: 2s ease-in all;
+  }
+
+  .graph:nth-child(5).fill .progress_bar_area .progress_bar_column:nth-child(1)::after,
+  .graph:nth-child(5).fill .progress_bar_area .progress_bar_column:nth-child(2)::after,
+  .graph:nth-child(5).fill .progress_bar_area .progress_bar_column:nth-child(3)::after,
+  .graph:nth-child(5).fill .progress_bar_area .progress_bar_column:nth-child(4)::after,
+  .graph:nth-child(5).fill .progress_bar_area .progress_bar_column:nth-child(5)::after{
+    transform: scaleY(1);
+  }
+
+  .progress_graphs .graph:nth-child(5) .bar1{
+    bottom: 25%;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s ease-in all 2s;
+  }
+
+  .progress_graphs .graph:nth-child(5).fill .bar1{
+    bottom: 15%;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .progress_graphs .graph:nth-child(5) .bar2{
+    bottom: 40%;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s ease-in all 2s;
+  }
+
+  .progress_graphs .graph:nth-child(5).fill .bar2{
+    bottom: 35%;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .progress_graphs .graph:nth-child(5) .bar3{
+    bottom: 38%;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s ease-in all 2s;
+  }
+
+  .progress_graphs .graph:nth-child(5).fill .bar3{
+    bottom: 29%;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .progress_graphs .graph:nth-child(5) .bar4{
+    bottom: 98%;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s ease-in all 2s;
+  }
+
+  .progress_graphs .graph:nth-child(5).fill .bar4{
+    bottom: 88%;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .progress_graphs .graph:nth-child(5) .bar5{
+    bottom: 25%;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s ease-in all 2s;
+  }
+
+  .progress_graphs .graph:nth-child(5).fill .bar5{
+    bottom: 18%;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  /* Graph Six */
+  .graph:nth-child(6) .progress_bar_area .progress_bar_column:nth-child(1)::after,
+  .graph:nth-child(6) .progress_bar_area .progress_bar_column:nth-child(2)::after{
+    background: #e6e6e6;
+  }
+
+  .graph:nth-child(6) .progress_bar_area .progress_bar_column:nth-child(3)::after,
+  .graph:nth-child(6) .progress_bar_area .progress_bar_column:nth-child(4)::after{
+    background: #ddd;
+  }
+
+  .graph:nth-child(6) .progress_bar_area .progress_bar_column:nth-child(5)::after{
+    background: #d11c26;
+  }
+
+  .graph:nth-child(6) .progress_bar_area .progress_bar_column:nth-child(1)::after{
+    height: 33%;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: 2s ease-in all;
+  }
+
+  .graph:nth-child(6) .progress_bar_area .progress_bar_column:nth-child(2)::after{
+    height: 43%;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: 2s ease-in all;
+  }
+
+  .graph:nth-child(6) .progress_bar_area .progress_bar_column:nth-child(3)::after{
+    height: 50%;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: 2s ease-in all;
+  }
+
+  .graph:nth-child(6) .progress_bar_area .progress_bar_column:nth-child(4)::after{
+    height: 86%;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: 2s ease-in all;
+  }
+
+  .graph:nth-child(6) .progress_bar_area .progress_bar_column:nth-child(5)::after{
+    height: 34%;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: 2s ease-in all;
+  }
+
+  .graph:nth-child(6).fill .progress_bar_area .progress_bar_column:nth-child(1)::after,
+  .graph:nth-child(6).fill .progress_bar_area .progress_bar_column:nth-child(2)::after,
+  .graph:nth-child(6).fill .progress_bar_area .progress_bar_column:nth-child(3)::after,
+  .graph:nth-child(6).fill .progress_bar_area .progress_bar_column:nth-child(4)::after,
+  .graph:nth-child(6).fill .progress_bar_area .progress_bar_column:nth-child(5)::after{
+    transform: scaleY(1);
+  }
+
+  .progress_graphs .graph:nth-child(6) .bar1{
+    bottom: 46%;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s ease-in all 2s;
+  }
+
+  .progress_graphs .graph:nth-child(6).fill .bar1{
+    bottom: 36%;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .progress_graphs .graph:nth-child(6) .bar2{
+    bottom: 55%;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s ease-in all 2s;
+  }
+
+  .progress_graphs .graph:nth-child(6).fill .bar2{
+    bottom: 48%;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .progress_graphs .graph:nth-child(6) .bar3{
+    bottom: 59%;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s ease-in all 2s;
+  }
+
+  .progress_graphs .graph:nth-child(6).fill .bar3{
+    bottom: 54%;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .progress_graphs .graph:nth-child(6) .bar4{
+    bottom: 98%;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s ease-in all 2s;
+  }
+
+  .progress_graphs .graph:nth-child(6).fill .bar4{
+    bottom: 88%;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .progress_graphs .graph:nth-child(6) .bar5{
+    bottom: 46%;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s ease-in all 2s;
+  }
+
+  .progress_graphs .graph:nth-child(6).fill .bar5{
+    bottom: 36%;
+    opacity: 1;
+    visibility: visible;
+  }
+
+
+  /* Graph Seven */
+  .graph:nth-child(7) .progress_bar_area .progress_bar_column:nth-child(1)::after,
+  .graph:nth-child(7) .progress_bar_area .progress_bar_column:nth-child(2)::after{
+    background: #e6e6e6;
+  }
+
+  .graph:nth-child(7) .progress_bar_area .progress_bar_column:nth-child(3)::after,
+  .graph:nth-child(7) .progress_bar_area .progress_bar_column:nth-child(4)::after{
+    background: #ddd;
+  }
+
+  .graph:nth-child(7) .progress_bar_area .progress_bar_column:nth-child(5)::after{
+    background: #d11c26;
+  }
+
+  .graph:nth-child(7) .progress_bar_area .progress_bar_column:nth-child(1)::after{
+    height: 85%;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: 2s ease-in all;
+  }
+
+  .graph:nth-child(7) .progress_bar_area .progress_bar_column:nth-child(2)::after{
+    height: 71%;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: 2s ease-in all;
+  }
+
+  .graph:nth-child(7) .progress_bar_area .progress_bar_column:nth-child(3)::after{
+    height: 62%;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: 2s ease-in all;
+  }
+
+  .graph:nth-child(7) .progress_bar_area .progress_bar_column:nth-child(4)::after{
+    height: 71%;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: 2s ease-in all;
+  }
+
+  .graph:nth-child(7) .progress_bar_area .progress_bar_column:nth-child(5)::after{
+    height: 62%;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: 2s ease-in all;
+  }
+
+  .graph:nth-child(7).fill .progress_bar_area .progress_bar_column:nth-child(1)::after,
+  .graph:nth-child(7).fill .progress_bar_area .progress_bar_column:nth-child(2)::after,
+  .graph:nth-child(7).fill .progress_bar_area .progress_bar_column:nth-child(3)::after,
+  .graph:nth-child(7).fill .progress_bar_area .progress_bar_column:nth-child(4)::after,
+  .graph:nth-child(7).fill .progress_bar_area .progress_bar_column:nth-child(5)::after{
+    transform: scaleY(1);
+  }
+
+  .progress_graphs .graph:nth-child(7) .bar1{
+    bottom: 98%;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s ease-in all 2s;
+  }
+
+  .progress_graphs .graph:nth-child(7).fill .bar1{
+    bottom: 88%;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .progress_graphs .graph:nth-child(7) .bar2{
+    bottom: 88%;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s ease-in all 2s;
+  }
+
+  .progress_graphs .graph:nth-child(7).fill .bar2{
+    bottom: 75%;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .progress_graphs .graph:nth-child(7) .bar3{
+    bottom: 75%;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s ease-in all 2s;
+  }
+
+  .progress_graphs .graph:nth-child(7).fill .bar3{
+    bottom: 65%;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .progress_graphs .graph:nth-child(7) .bar4{
+    bottom: 88%;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s ease-in all 2s;
+  }
+
+  .progress_graphs .graph:nth-child(7).fill .bar4{
+    bottom: 75%;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .progress_graphs .graph:nth-child(7) .bar5{
+    bottom: 75%;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s ease-in all 2s;
+  }
+
+  .progress_graphs .graph:nth-child(7).fill .bar5{
+    bottom: 65%;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  /* Graph Eight */
+  .graph:nth-child(8) .progress_bar_area .progress_bar_column:nth-child(1)::after,
+  .graph:nth-child(8) .progress_bar_area .progress_bar_column:nth-child(2)::after{
+    background: #e6e6e6;
+  }
+
+  .graph:nth-child(8) .progress_bar_area .progress_bar_column:nth-child(3)::after,
+  .graph:nth-child(8) .progress_bar_area .progress_bar_column:nth-child(4)::after{
+    background: #ddd;
+  }
+
+  .graph:nth-child(8) .progress_bar_area .progress_bar_column:nth-child(5)::after{
+    background: #d11c26;
+  }
+
+  .graph:nth-child(8) .progress_bar_area .progress_bar_column:nth-child(1)::after{
+    height: 65%;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: 2s ease-in all;
+  }
+
+  .graph:nth-child(8) .progress_bar_area .progress_bar_column:nth-child(2)::after{
+    height: 73%;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: 2s ease-in all;
+  }
+
+  .graph:nth-child(8) .progress_bar_area .progress_bar_column:nth-child(3)::after{
+    height: 70%;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: 2s ease-in all;
+  }
+
+  .graph:nth-child(8) .progress_bar_area .progress_bar_column:nth-child(4)::after{
+    height: 80%;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: 2s ease-in all;
+  }
+
+  .graph:nth-child(8) .progress_bar_area .progress_bar_column:nth-child(5)::after{
+    height: 76%;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: 2s ease-in all;
+  }
+
+  .graph:nth-child(8).fill .progress_bar_area .progress_bar_column:nth-child(1)::after,
+  .graph:nth-child(8).fill .progress_bar_area .progress_bar_column:nth-child(2)::after,
+  .graph:nth-child(8).fill .progress_bar_area .progress_bar_column:nth-child(3)::after,
+  .graph:nth-child(8).fill .progress_bar_area .progress_bar_column:nth-child(4)::after,
+  .graph:nth-child(8).fill .progress_bar_area .progress_bar_column:nth-child(5)::after{
+    transform: scaleY(1);
+  }
+
+  .progress_graphs .graph:nth-child(8) .bar1{
+    bottom: 80%;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s ease-in all 2s;
+  }
+
+  .progress_graphs .graph:nth-child(8).fill .bar1{
+    bottom: 70%;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .progress_graphs .graph:nth-child(8) .bar2{
+    bottom: 86%;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s ease-in all 2s;
+  }
+
+  .progress_graphs .graph:nth-child(8).fill .bar2{
+    bottom: 76%;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .progress_graphs .graph:nth-child(8) .bar3{
+    bottom: 90%;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s ease-in all 2s;
+  }
+
+  .progress_graphs .graph:nth-child(8).fill .bar3{
+    bottom: 75%;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .progress_graphs .graph:nth-child(8) .bar4{
+    bottom: 96%;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s ease-in all 2s;
+  }
+
+  .progress_graphs .graph:nth-child(8).fill .bar4{
+    bottom: 83%;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .progress_graphs .graph:nth-child(8) .bar5{
+    bottom: 90%;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s ease-in all 2s;
+  }
+
+  .progress_graphs .graph:nth-child(8).fill .bar5{
+    bottom: 80%;
+    opacity: 1;
+    visibility: visible;
+  }
